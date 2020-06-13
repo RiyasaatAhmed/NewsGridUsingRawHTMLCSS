@@ -29,7 +29,7 @@
 
 #show-case .container .show-case-p
 {
-  width: 70%;
+  width: 100%;
 }
 
 /* Stacking the Articles One After Another */
@@ -42,6 +42,10 @@
 {
   display: flex;
   flex-direction: column;
+}
+#timeline .container .timeline-container .card
+{
+  margin: 1rem;
 }
 
 #timeline .container .timeline-container > *:first-child,
