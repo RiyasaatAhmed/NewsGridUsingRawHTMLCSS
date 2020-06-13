@@ -1,4 +1,8 @@
 /* Removing Icons from the Nav-bar */
+.container
+{
+  max-width: 90vw;
+}
 
 #nav .container .nav-menu .nav-icons
 {
@@ -51,9 +55,11 @@
 #timeline .container .timeline-container > *:first-child,
 #timeline .container .timeline-container > *:last-child
 {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
 }
+
 
 /* About */
 .about-info-container
