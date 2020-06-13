@@ -172,10 +172,6 @@ img
   z-index: 2;
 }
 
-#nav .container
-{
-  height: 10vh;
-}
 
 #nav .nav-container
 {
@@ -245,7 +241,7 @@ img
 /* Show-case */
 #show-case 
 {
-  height: 60vh;
+  height: 50vh;
   background: rgba(0, 0,0, 0.6);
 }
 
